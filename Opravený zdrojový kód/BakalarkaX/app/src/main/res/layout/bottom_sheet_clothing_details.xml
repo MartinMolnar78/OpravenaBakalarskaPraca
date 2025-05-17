@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bottom_sheet_rounded">
+
+    <ImageView
+        android:id="@+id/clothingImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxHeight="250dp"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/clothingBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brand"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:fontFamily="@font/applebold"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/clothingName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clothing Name"
+        android:textSize="16sp"
+        android:textColor="#444"
+        android:fontFamily="@font/applefont"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Worn in the Last 14 Days:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/applebold" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_marginTop="8dp">
+
+        <LinearLayout
+            android:id="@+id/usageContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:divider="@android:color/transparent"
+            android:showDividers="middle"
+            android:dividerPadding="8dp"/>
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/addClothingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PICK"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/applebold"
+        android:layout_gravity="center" />
+
+</LinearLayout>

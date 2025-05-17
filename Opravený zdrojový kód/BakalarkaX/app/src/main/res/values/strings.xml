@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Smartdrobe</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="category_main">
+        <item>Head</item>
+        <item>Upper</item>
+        <item>Lower</item>
+        <item>Shoes</item>
+    </string-array>
+
+    <string-array name="subcategory_head">
+        <item>Cap</item>
+        <item>Hat</item>
+        <item>Scarf</item>
+        <item>Beanie</item>
+        <item>Beret</item>
+        <item>Visor</item>
+        <item>Bucket Hat</item>
+    </string-array>
+
+
+    <string-array name="subcategory_upper">
+        <item>T-Shirt</item>
+        <item>Shirt</item>
+        <item>Blouse</item>
+        <item>Tank Top</item>
+        <item>Crop Top</item>
+        <item>Sweatshirt</item>
+        <item>Hoodie</item>
+        <item>Crewneck</item>
+        <item>Cardigan</item>
+        <item>Jacket</item>
+        <item>Windbreaker</item>
+        <item>Bomber Jacket</item>
+        <item>Blazer</item>
+        <item>Coat</item>
+        <item>Trench Coat</item>
+        <item>Denim Jacket</item>
+        <item>Vest</item>
+        <item>Poncho</item>
+        <item>Fleece</item>
+    </string-array>
+
+
+    <string-array name="subcategory_lower">
+        <item>Jeans</item>
+        <item>Shorts</item>
+        <item>Skirt</item>
+        <item>Joggers</item>
+        <item>Sweatpants</item>
+        <item>Leggings</item>
+        <item>Cargo Pants</item>
+        <item>Trousers</item>
+    </string-array>
+
+
+    <string-array name="subcategory_shoes">
+        <item>Sneakers</item>
+        <item>Boots</item>
+        <item>Sandals</item>
+        <item>Heels</item>
+        <item>Flats</item>
+        <item>Slides</item>
+    </string-array>
+
+
+
+    <string-array name="category_season">
+        <item>Spring</item>
+        <item>Summer</item>
+        <item>Fall</item>
+        <item>Winter</item>
+        <item>Uni</item>
+    </string-array>
+
+    <string-array name="category_color">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Brown</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Black</item>
+        <item>White</item>
+        <item>Gray</item>
+        <item>Purple</item>
+        <item>Pink</item>
+        <item>Orange</item>
+    </string-array>
+
+    <!-- Pre filtre -->
+    <string-array name="filter_category_main">
+        <item>All</item>
+        <item>Head</item>
+        <item>Upper</item>
+        <item>Lower</item>
+        <item>Shoes</item>
+    </string-array>
+
+    <string-array name="filter_category_season">
+        <item>All</item>
+        <item>Spring</item>
+        <item>Summer</item>
+        <item>Fall</item>
+        <item>Winter</item>
+        <item>Uni</item>
+    </string-array>
+
+
+</resources>
